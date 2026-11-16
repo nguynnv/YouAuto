@@ -1,51 +1,9 @@
-# YouAuto
+YouTube ads are automatically skipped. 
+# Hey, don't ban me, this project just automatically clicks the skip button if it shows up. It only replaces a person clicking the button, helping lazy people not have to touch the mouse.
 
-A userscript that automatically clicks the **Skip Ad** button when it appears on YouTube.
+haha
 
-## Features
-
-- Automatically detects YouTube ad skip buttons.
-- Supports both desktop and mobile YouTube interfaces.
-- Checks for dynamically added ads when the page changes and every 500 ms.
-- Only clicks buttons that are visible and enabled.
-- Uses no external libraries or services.
-
-## Installation
-
-### Option 1: Tampermonkey or Violentmonkey
-
-1. Install a userscript manager:
-   - [Violentmonkey](https://violentmonkey.github.io/)
-   - [Tampermonkey](https://www.tampermonkey.net/)
-2. Open the manager and create a new userscript.
-3. Copy the full contents of [`Youtube-auto-skip-button.js`](Youtube-auto-skip-button.js) into the editor.
-4. Save the userscript.
-5. Open or reload a YouTube video.
-
-### Option 2: Install from a file
-
-If your userscript manager supports file installation:
-
-1. Open [`Youtube-auto-skip-button.js`](Youtube-auto-skip-button.js).
-2. Drag the file into your browser or choose **Install from file** in the userscript manager.
-3. Confirm the installation and enable the userscript.
-
-## Supported Pages
-
-The userscript runs on:
-
-- `https://www.youtube.com/*`
-- `https://m.youtube.com/*`
-
-The script does not block ads or modify video content. It only simulates clicking the **Skip Ad** button after YouTube displays it.
-
-## Limitations
-
-- The script only works when YouTube provides a skip button.
-- Non-skippable ads or changed YouTube layouts may not be handled.
-- YouTube interface changes may require updating the button selectors in the script.
-- Review the source code before installing userscripts from any source.
-
-## Privacy
-
-The script only runs on the YouTube pages declared in its metadata and does not send data externally. It uses `@grant none`, so it does not require special permissions from the userscript manager.
+# How to use ???
+1. You have to install userscript manager like [Violentmonkey](https://violentmonkey.github.io/) or [Tampermonkey](https://www.tampermonkey.net/)
+2. Click [here](https://greasyfork.org/vi/scripts/605744-youtube-auto-skip-button) and click install
+3. Enjoyyyyyy
